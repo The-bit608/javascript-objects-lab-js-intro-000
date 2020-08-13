@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-Object.assin({}, object, { [key]: value})
+Object.assign({}, object, { [key]: value})
 return object
 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
